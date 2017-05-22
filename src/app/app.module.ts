@@ -8,6 +8,8 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { ReportsComponent } from './reports/reports.component'
+import { AnalyticsComponent } from './analytics/analytics.component'
 import { HeaderComponent } from './header/header.component';
 import { PageNotFoundComponent } from './page-not-found.component';
 
@@ -20,6 +22,8 @@ import { AppRoutingModule } from './app-routing.module';
     SidebarComponent,
     HeaderComponent,
     DashboardComponent,
+    ReportsComponent,
+    AnalyticsComponent,
     PageNotFoundComponent
   ],
   imports: [
